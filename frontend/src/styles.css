@@ -1,0 +1,13 @@
+:root { color-scheme: light dark; font-family: Inter, Arial, sans-serif; }
+body { margin: 0; background: #0b1020; color: #eef2ff; }
+.page { min-height: 100vh; padding: 32px; display: grid; place-items: center; }
+.two-col { grid-template-columns: repeat(2, minmax(320px, 520px)); gap: 24px; align-items: start; }
+.card { width: 100%; background: #151c33; border: 1px solid #2d3861; border-radius: 18px; padding: 24px; box-sizing: border-box; }
+form { display: grid; gap: 12px; }
+label { display: grid; gap: 6px; font-size: 14px; }
+input, select, button { border-radius: 10px; padding: 12px; border: 1px solid #31406f; background: #0e1630; color: #eef2ff; }
+button { background: #4f46e5; cursor: pointer; font-weight: 700; }
+code { word-break: break-all; font-size: 12px; }
+img { max-width: 240px; background: white; padding: 8px; border-radius: 10px; }
+a { color: #93c5fd; }
+@media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }

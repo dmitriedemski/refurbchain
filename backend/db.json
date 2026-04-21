@@ -1,0 +1,22 @@
+{
+  "reports": [
+    {
+      "reportId": 1,
+      "deviceHash": "0xcde3f13133a6e0e6b1decf4732b7bee6838c0c84fe0722f98ecfdb29cb09e096",
+      "reportHash": "0xbf948e1938b2e9867180c123671a5f30e4837f8be19abee7209c4340ec8a2269",
+      "metadataURI": "local://reports/0xbf948e1938b2e9867180c123671a5f30e4837f8be19abee7209c4340ec8a2269",
+      "txHash": "0xe1fd1a9a6b10aa6081ef5ecc0454649535ff90e11e3df340ad6c8af688b2852c",
+      "model": "iPhone 13",
+      "serialMasked": "ABC***89",
+      "diagnostics": {
+        "batteryHealth": 86,
+        "rootCheck": "not_rooted",
+        "stolenCheck": "clear",
+        "screen": "minor scratches"
+      },
+      "status": "clean",
+      "createdAt": "2026-04-21T14:17:28.013Z",
+      "serviceName": "RefurbChain Demo Service"
+    }
+  ]
+}
